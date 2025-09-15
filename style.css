@@ -1,0 +1,47 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.hero {
+  background: linear-gradient(135deg, rgba(76, 0, 255, 0.6), rgba(30, 30, 156, 0.6), rgba(255, 76, 76, 0.6)), 
+              url("background.png") center/cover no-repeat;
+  height: 100vh; /* full screen height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+
+  /* Border Radius to curve edges */
+  border-bottom-left-radius: 80px;
+  border-bottom-right-radius: 80px;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #ffffff;
+  color: #1e1e9c;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: bold;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.btn:hover {
+  background: #ff4c4c;
+  color: white;
+}
+
